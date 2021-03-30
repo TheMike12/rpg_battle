@@ -1,12 +1,14 @@
 import React from "react";
-import Background from './Background';
+import Enemy from "./Enemy";
+import TextBox from "./TextBox";
 import '../styles/index.css';
 
 const App = () => {
   
   return (
     <div>
-      <Background />  
+      <Enemy />
+      <TextBox />
     </div>
   )
 

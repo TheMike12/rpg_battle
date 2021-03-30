@@ -5,6 +5,12 @@
     overflow: hidden;
 }
 
+body {
+    background: repeating-linear-gradient(45deg, black,#440144 1%);
+    position: relative;
+    height: 100vh;
+}
+
 /*body {
     background: repeating-linear-gradient(black,purple 20px);
 }*/
