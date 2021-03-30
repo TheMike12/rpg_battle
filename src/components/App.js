@@ -1,12 +1,11 @@
 import React from "react";
-import Background from "./Background";
+import Background from './Background';
 import '../styles/index.css';
 
 const App = () => {
   
   return (
-    <div className="ooo">
-      hi   
+    <div>
       <Background />  
     </div>
   )

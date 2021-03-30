@@ -1,14 +1,13 @@
 import React from "react";
-import '../styles/Backgroundd.css';
+import '../styles/Background.css';
 
 const Background = () => {
   
   return (
-      <div className="ooo">
-        <div className="background-1"></div>
+      <div className="background">
       </div>
-  )
+  );
 
 }
 
-export default Background
+export default Background;
