@@ -5,7 +5,7 @@ const TextBox = () => {
   
   return (
     <div className="text-box">
-        
+        <div className="intro-text-ani"></div>
     </div>
   )
 

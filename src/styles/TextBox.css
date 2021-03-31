@@ -6,4 +6,21 @@
     bottom: 0%;
     border: 5px solid white;
     border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Courier New', monospace;
+    color: white;
 }
+
+.intro-text-ani {
+    animation: intro-text-ani 5s steps(89);
+}
+
+@keyframes intro-text-ani {
+    0% {width:0ch;}
+    100% {width:89ch;}
+}
+
